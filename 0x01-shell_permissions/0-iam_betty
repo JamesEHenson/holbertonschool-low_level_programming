@@ -1,2 +1,2 @@
 #!/ban/bash
-su betty
+usermod -1 betty vagrant
