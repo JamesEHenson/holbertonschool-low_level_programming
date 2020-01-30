@@ -1,2 +1,25 @@
-#!/bin/bash
-man page
+NAME
+    holberton - become a full-stack software engineer.
+
+SYNOPSIS
+    holberton James Henson
+
+DESCRIPTION
+    A textual description of the functioning of the command or function.
+
+EXAMPLES
+    Some examples of common usage.
+
+SEE ALSO
+    A list of related commands or functions.
+
+BUGS
+    No known bugs.
+
+AUTHOR
+   Julien Barbier, Sylvain Kalache, Sophie Barbier, Guillaume Salva, Kris Bredemeier, Julien Cyr, Alex Gautier and all the Holberton mentors
+
+
+
+
+0.32
