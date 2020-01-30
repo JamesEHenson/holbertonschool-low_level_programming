@@ -1,0 +1,3 @@
+#!/bin/bash
+/tmp/magic$ file --mime-type -m holberton.mgc*
+
