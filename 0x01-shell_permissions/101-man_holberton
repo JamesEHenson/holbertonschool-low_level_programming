@@ -2,16 +2,16 @@ NAME
     holberton - become a full-stack software engineer.
 
 SYNOPSIS
-    holberton James Henson
+    holberton [STUDENTNAME]
 
 DESCRIPTION
-    A textual description of the functioning of the command or function.
+    Holberton School is a project-based alternative to college for the next generation of software engineers.
 
 EXAMPLES
-    Some examples of common usage.
+    holberton does not take any options. However, you can supply studentname.
 
 SEE ALSO
-    A list of related commands or functions.
+    peerlearning(2), projectbased(2), fullstack(2), Betty(1)
 
 BUGS
     No known bugs.
