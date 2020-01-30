@@ -1,2 +1,2 @@
-C#!/bin/bash
-chown betty:holberton
+#!/bin/bash
+chown betty holberton
