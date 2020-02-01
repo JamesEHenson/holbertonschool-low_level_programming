@@ -8,10 +8,11 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~Msle0~/"
+~MSle0~/0-current_working_directory
 
 # Command Line History (newest to oldest):
 :wq
+:set number
 :xz
 :q!
 :Wq
@@ -20,6 +21,7 @@
 :qw
 
 # Search String History (newest to oldest):
+?/0-current_working_directory
 ? "
 
 # Expression History (newest to oldest):
@@ -30,21 +32,35 @@
 
 # Registers:
 ""-	CHAR	0
-	M
+	d
 
 # File marks:
-'0  1  3  ~/holbertonschool-zero_day/0x03-git/.gitignore
-'1  1  3  ~/holbertonschool-zero_day/0x03-git/.gitinore
-'2  1  0  ~/holbertonschool-zero_day/0x02-vi/101-delete_line
-'3  1  5  ~/holbertonschool-zero_day/0x02-vi/100-move_to_line
-'4  1  0  ~/holbertonschool-zero_day/0x02-vi/101-delete_lin
-'5  1  9  ~/holbertonschool-zero_day/0x01-emacs/101-doctor
-'6  1  9  ~/holbertonschool-zero_day/0x01-emacs/100-tetris
-'7  1  1  ~/holbertonschool-zero_day/0x02-vi/1-cutting
-'8  1  29  ~/holbertonschool-zero_day/0x03-git/up_to_date
-'9  1  29  ~/holbertonschool-zero_day/up_to_date
+'0  1  0  ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
+'1  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+'2  1  1  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+'3  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
+'4  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'5  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'6  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+'7  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'8  6  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'9  5  8  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
 
 # Jumplist (newest first):
+-'  1  0  ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
+-'  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+-'  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+-'  1  1  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+-'  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
+-'  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
+-'  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+-'  6  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  5  8  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  7  85  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+-'  1  10  ~/holberton-system_engineering-devops/README.md
 -'  1  3  ~/holbertonschool-zero_day/0x03-git/.gitignore
 -'  1  3  ~/holbertonschool-zero_day/0x03-git/.gitinore
 -'  1  0  ~/holbertonschool-zero_day/0x02-vi/101-delete_line
@@ -129,21 +145,69 @@
 -'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
 -'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
 -'  1  1  ~/holbertonschool-zero_day/0x02-vi/0-inserting
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  1  ~/holbertonschool-zero_day/0x02-vi/2-pasting
--'  1  1  ~/holbertonschool-zero_day/0x02-vi/0-inserting
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  1  ~/holbertonschool-zero_day/0x02-vi/0-inserting
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
 
 # History of marks within files (newest to oldest):
+
+> ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
+	"	1	0
+	^	1	0
+
+> ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+	"	3	0
+	^	7	0
+	.	6	0
+	+	6	2
+	+	3	0
+	+	4	0
+	+	5	0
+	+	6	0
+
+> ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+	"	1	1
+	^	1	2
+	.	3	0
+	+	1	11
+	+	3	0
+
+> ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
+	"	4	0
+	^	4	0
+	.	3	15
+	+	3	15
+
+> ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+	"	3	0
+	^	1	0
+	.	3	0
+	+	8	0
+	+	1	29
+	+	1	74
+	+	1	29
+	+	7	85
+	+	1	0
+	+	7	10
+	+	7	0
+	+	1	10
+	+	5	11
+	+	5	13
+	+	5	12
+	+	5	13
+	+	5	13
+	+	7	0
+	+	5	3
+	+	5	0
+	+	5	0
+	+	4	0
+	+	4	0
+	+	3	0
+	+	5	0
+	+	3	0
+
+> ~/holberton-system_engineering-devops/README.md
+	"	1	10
+	^	1	11
+	.	1	11
+	+	1	11
 
 > ~/holbertonschool-zero_day/0x03-git/.gitignore
 	"	1	3
