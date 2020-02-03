@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l /home
+ls -l /etc/passwd
