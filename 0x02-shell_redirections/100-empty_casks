@@ -1,5 +1,2 @@
 #!/bin/bash
-<<<<<<< HEAD
-=======
-find .-empty
->>>>>>> 9bd9410d2dee3e3e3657e15262b3667f5da6d93f
+find . -empty
