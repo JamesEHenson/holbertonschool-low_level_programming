@@ -33,5 +33,5 @@ putchar(space);
 }
 count++;
 }
-return()
+return (0);
 }
