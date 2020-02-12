@@ -1,4 +1,4 @@
-#include <stdio.h>
+B#include <stdio.h>
 /**
  * main - entry point
  *
@@ -8,24 +8,24 @@
  */
 int main(void)
 {
-  long number = 612852475143;
-  long div = 2, maxFact;
+long number = 612852475143;
+long div = 2, maxFact;
 
-  while (number != 0)
-    {
-      if (number % div != 0)
-	div = div + 1;
-      else
-	{
-	  maxFact  = number;
-	  number = number / div;
+while (number != 0)
+{
+if (number % div != 0)
+div = div + 1;
+else
+{
+maxFact  = number;
+number = number / div;
 
-	  if (number == 1)
-	    {
-	      printf("%ld\n", maxFact);
-	      break;
-	    }
-	}
-    }
-  return (0);
+if (number == 1)
+{
+printf("%ld\n", maxFact);
+break;
+}
+}
+}
+return (0);
 }
