@@ -1,19 +1,23 @@
-#include <holberton.h>
-
+#include "holberton.h"
 
 /**
- *print_most_numbers-print numbers between 0-9 except 2,4
+ * print_most_numbers -  checks for checks for a digit (0 through 9).
  *
- *Return: 0 (success)
- *
+ * Return: Always 0.
  */
-
 void print_most_numbers(void)
 {
-  int a;
-  if (a=>48 a=<57 !(50,52));
-  {
-    _putchar(a);
-  }
-  _putchar('\n');
+int a;
+
+for (a = 48; a < 58; a++)
+{
+if (a != 50)
+{
+if (a != 52)
+{
+_putchar(a);
+}
+}
+}
+_putchar('\n');
 }
