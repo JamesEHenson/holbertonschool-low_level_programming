@@ -1,4 +1,4 @@
-#include <stdio.h>
+B#include <stdio.h>
 
 /**
 * main - causes an infinite loop
@@ -12,7 +12,7 @@ int i;
 printf("Infinite loop incoming :(\n");
 
 /**
- * Code needed to be removed
+* main - @\o/-loop avoided
 * i = 0;XS
 *while (i < 10)
 *{
