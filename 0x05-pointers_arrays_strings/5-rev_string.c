@@ -1,4 +1,4 @@
-B#include "holberton.h"
+#include "holberton.h"
 
 /**
  * rev_string - print reverse characters.
@@ -8,7 +8,6 @@ B#include "holberton.h"
 void rev_string(char *s)
 {
 int i = 0, a = 0, Aux;
-
 
 while (s[i] != '\0')
 {
