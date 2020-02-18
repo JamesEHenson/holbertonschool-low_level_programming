@@ -1,17 +1,17 @@
 #include "holberton.h"
 
 /**
- * _strlen - function that returns the length of a string.
- * @s : s is a character
- * Return: value is i
+ * _puts - check the code for Holberton School students.
+ * @str: validate the character
+ * Return: Always 0.
  */
-int _strlen(char *s)
+void _puts(char *str)
 {
 int i;
 
-for (i = 0; s[i] != '\0'; i++)
+for (i = 0; str[i] != '\0' ; i++)
 {
-
+_putchar(str[i]);
 }
-return (i);
+_putchar('\n');
 }
