@@ -11,6 +11,9 @@
 ~MSle0~/0-current_working_directory
 
 # Command Line History (newest to oldest):
+:quit!
+:quit
+:q
 :wq
 :set number
 :xz
@@ -35,18 +38,22 @@
 	d
 
 # File marks:
-'0  1  0  ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
-'1  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
-'2  1  1  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
-'3  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
-'4  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-'5  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-'6  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
-'7  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-'8  6  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
-'9  5  8  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'0  4  0  ~/Test1
+'1  1  0  ~/Test
+'2  1  9  ~/holberton-low_level_programming/main.c
+'3  1  0  ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
+'4  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
+'5  1  1  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
+'6  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/README.md
+'7  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'8  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/0-current_working_directory
+'9  4  0  ~/holberton-system_engineering-devops/0x00-shell_basics/1-listit
 
 # Jumplist (newest first):
+-'  4  0  ~/Test1
+-'  1  0  ~/Test1
+-'  1  0  ~/Test
+-'  1  9  ~/holberton-low_level_programming/main.c
 -'  1  0  ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
 -'  3  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
 -'  1  0  ~/holberton-system_engineering-devops/0x00-shell_basics/2-bring_me_home
@@ -142,11 +149,25 @@
 -'  1  1  ~/holbertonschool-zero_day/0x02-vi/0-inserting
 -'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
 -'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  83  ~/holbertonschool-zero_day/0x02-vi/README.md
--'  1  1  ~/holbertonschool-zero_day/0x02-vi/0-inserting
 
 # History of marks within files (newest to oldest):
+
+> ~/Test1
+	"	4	0
+	^	9	11
+	.	9	9
+	+	3	38
+	+	4	1
+	+	7	0
+	+	9	9
+
+> ~/Test
+	"	1	0
+
+> ~/holberton-low_level_programming/main.c
+	"	1	9
+	.	1	8
+	+	1	8
 
 > ~/holberton-system_engineering-devops/0x01-shell_permissions/nuseradd
 	"	1	0
