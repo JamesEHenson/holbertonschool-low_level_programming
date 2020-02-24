@@ -1,0 +1,6 @@
+#!/bin/bash
+<<<<<<< HEAD
+touch \\*\\\\\\'\"Holberton School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+=======
+touch \\\*\\\\\'\"Holberton School\"\\\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\) > Holberton School -e
+>>>>>>> 9bd9410d2dee3e3e3657e15262b3667f5da6d93f
