@@ -7,7 +7,7 @@ unsigned int k;
 
 for (k = 0, k <= n, k++)
 {
-*(s + k) = b;
+(*s + k) = b;
 }
 return (s);
 }
