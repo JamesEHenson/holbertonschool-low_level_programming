@@ -1,2 +1,0 @@
-#!/bin/bash
-tr -d '\n' | find -type f *.gif |sort
