@@ -1,5 +1,0 @@
-#!/bin/bash
-<<<<<<< HEAD
-=======
-find . -type f -name "*.gif" -printf "%f/n" | cut -f 1 -d "." |sort -VF 
->>>>>>> 9bd9410d2dee3e3e3657e15262b3667f5da6d93f
