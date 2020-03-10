@@ -11,15 +11,15 @@
 char *_strcpy(char *dest, char *src)
 {
 
-  int a = 0;
+int a = 0;
 
-  while (src[a] != '\0')
-    {
-      dest[a] = src[a];
-      a++;
-    }
-  dest[a] = '\0';
-  return (dest);
+while (src[a] != '\0')
+{
+dest[a] = src[a];
+a++;
+}
+dest[a] = '\0';
+return (dest);
 }
 /**
  * _strlen ---acter c to stdout
@@ -30,13 +30,12 @@ char *_strcpy(char *dest, char *src)
  */
 int _strlen(char *s)
 {
-  int a;
-
-  while (s[a] != '\0')
-    {
-      a++;
-    }
-  return (a);
+int a;
+while (s[a] != '\0')
+{
+a++;
+}
+return (a);
 }
 /**
  * dog_t *new_dog ---new_dog
