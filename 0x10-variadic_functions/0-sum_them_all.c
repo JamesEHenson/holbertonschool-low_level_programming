@@ -3,9 +3,9 @@
 #include <stdarg.h>
 
 /**
- *sum_them_all - check the code for the Holberton School students.
- *@n: number of arguments
- *Return: always 0.
+ * sum_them_all - check the code for Holberton School students.
+ * @n: number of arguments
+ * Return: Always 0.
  */
 int sum_them_all(const unsigned int n, ...)
 {
@@ -15,10 +15,11 @@ unsigned int i;
 
 va_start(valist, n);
 
-for(i = 0; i < n; i++)
+for (i = 0; i < n; i++)
 {
 sum += va_arg(valist, int);
 }
+
 va_end(valist);
 
 return (sum);
