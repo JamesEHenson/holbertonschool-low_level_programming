@@ -1,53 +1,43 @@
-#include <stdlib.h>
-#include <string.h>
-#include <stdio.h>
 #include "lists.h"
-
 /**
- * _strlen - function that returns the length of a string.
- * @s : s is a character
- * Return: value is i
+ * _strlen - check the code for Holberton School students.
+ * @s: pointer string
+ * Return: Always 0.
  */
 int _strlen(const char *s)
 {
-int i = 0;
+int i;
 
-while (s[i] != '\0')
+for (i = 0; s[i] != 0; i++)
 {
-i++;
 }
 return (i);
 }
-
 /**
- * add_node_end - add a new node at the end of a list_t list.
- * @head: head of a list_t list.
- * @str: value to insert into element.
- * Return: the number of nodes.
+ * add_node_end - check the code for Holberton School students.
+ * @head: nodos
+ * @str: string
+ * Return: list
  */
+
 list_t *add_node_end(list_t **head, const char *str)
 {
-list_t *add;
-list_t *pointer;
+list_t *ptr = malloc(sizeof(list_t));
+list_t *aux;
 
-add = malloc(sizeof(list_t));
-if (add == NULL)
+if (ptr == NULL)
 return (NULL);
-
-add->str = strdup(str);
-add->len = _strlen(str);
-add->next = NULL;
-
+ptr->str = strdup(str);
+ptr->len = _strlen(str);
+ptr->next = NULL;
 if (*head == NULL)
+*head = ptr;
+else
 {
-*head = add;
-return (add);
+aux = *head;
+while (aux->next != NULL)
+aux = aux->next;
+aux->next = ptr;
 }
-pointer = *head;
-while (pointer->next)
-{
-pointer = pointer->next;
-}
-pointer->next = add;
-return (add);
+return (ptr);
 }
