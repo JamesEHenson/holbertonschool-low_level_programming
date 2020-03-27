@@ -31,3 +31,4 @@ else
 {
 number = number * 10 - (s[i] - '0');
 i++;
+}
