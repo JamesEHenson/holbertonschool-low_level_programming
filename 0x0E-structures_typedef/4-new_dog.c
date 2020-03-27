@@ -1,83 +1,67 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "dog.h"
+#include <stdlib.h>
 /**
- * _strcpy - writes the character c to stdout
- * @dest: The character to print
- * @src: kkdfkdkfdk
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * _str - check the code for Holberton School students.
+ * @s: pointer
+ * Return: Always 0.
  */
-char *_strcpy(char *dest, char *src)
+char *_str(char *s)
 {
+int i = 0, j = 0;
 
-int a = 0;
+char *cpy;
 
-while (src[a] != '\0')
+if (s == NULL)
+return (NULL);
+while (s[j] != '\0')
 {
-dest[a] = src[a];
-a++;
+j++;
+i++;
 }
-dest[a] = '\0';
-return (dest);
+i = 0;
+cpy = malloc(sizeof(char) * (j + 1));
+if (cpy == NULL)
+return (NULL);
+while (i < (j + 1))
+{
+cpy[i] = s[i];
+i++;
+}
+
+if (s == NULL)
+return (NULL);
+return (cpy);
 }
 /**
- * _strlen ---acter c to stdout
- * @s: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
-int _strlen(char *s)
-{
-int a;
-while (s[a] != '\0')
-{
-a++;
-}
-return (a);
-}
-/**
- * dog_t *new_dog ---new_dog
- * @name: name to copy
- * @age: age of dog
- * @owner: th owner
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- */
+* new_dog - Initilize the values of variables to new dog
+* @name: poiinter to the name of dog
+* @age: age of the dog
+* @owner: pointer to dog's owner
+* Return: pointer to new dog
+*/
 dog_t *new_dog(char *name, float age, char *owner)
 {
-int lename, lenowner;
-char *name2, *owner2;
+dog_t *new_dog;
+char *s1, *s2;
 
-dog_t *x;
-
-lename = _strlen(name);
-lenowner = _strlen(owner);
-name2 = malloc(lename + 1);
-if (name2 == NULL)
+s1 = _str(owner);
+s2 = _str(name);
+if (s1 == NULL || s2 == NULL)
 {
+free(s1);
+free(s2);
 return (NULL);
 }
-owner2 = malloc(lenowner + 1);
-if (owner2 == NULL)
+new_dog = malloc(sizeof(struct dog));
+if (new_dog == NULL)
 {
-free(name2);
+free(s1);
+free(s2);
 return (NULL);
 }
-_strcpy(name2, name);
-_strcpy(owner2, owner);
 
-x = malloc(sizeof(struct dog));
-if (x == NULL)
-{
-free(name2);
-free(owner2);
-return (NULL);
-}
-x->name = name2;
-x->age = age;
-x->owner = owner2;
-return (x);
-
+new_dog->name = s2;
+new_dog->age = age;
+new_dog->owner = s1;
+return (new_dog);
 }
