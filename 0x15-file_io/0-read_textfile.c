@@ -11,12 +11,10 @@ int fp, cl, num, counter;
 char *buffer;
 
 if (filename == NULL)
-return (0);
-  
+return (0);  
 buffer = malloc(sizeof(char) * letters);
 if (buffer == NULL)
 return (0);
-
 fp = open(filename, O_RDWR);
 if (fp == -1)
 {
