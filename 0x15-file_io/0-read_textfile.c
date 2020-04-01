@@ -12,15 +12,18 @@ char *buffer;
 
 if (filename == NULL)
 return (0);  
+/* malloc buffer */
 buffer = malloc(sizeof(char) * letters);
 if (buffer == NULL)
 return (0);
+/* open the file and check if fails */
 fp = open(filename, O_RDWR);
 if (fp == -1)
 {
 free(buffer);
 return (0);
 }
+/* read files and check if fails */
 counter = read(fp, buffer, letters);
 num = write(STDOUT_FILENO, buffer, (ssize_t)counter);
 if (num == -1)
